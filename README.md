@@ -16,7 +16,7 @@ $ git push heroku master
 remote: -----> Swift app detected
 remote: -----> Installing clang 5.0.0
 remote: -----> Installing swiftenv
-remote: -----> Installing Swift 4.1.1
+remote: -----> Installing Swift 4.2.2
 remote: -----> Building package (release configuration)
 remote: -----> Installing dynamic libraries
 remote: -----> Installing binaries
@@ -43,7 +43,7 @@ Example Procfile for Vapor 2 apps:
 web: Run --env=production --port=$PORT
 ```
 
-Example Procfile for Vapor 3 apps (Swift 4.1 required):
+Example Procfile for Vapor 3 apps (Swift 4.1 or higher required):
 
 ```
 web: Run serve --env production --hostname 0.0.0.0 --port $PORT
@@ -56,7 +56,7 @@ in your repository:
 
 ```shell
 $ cat .swift-version
-4.1.1
+4.2.2
 ```
 
 The `.swift-version` file is completely compatible with
